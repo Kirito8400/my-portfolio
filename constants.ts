@@ -85,12 +85,41 @@ export const RESUME_DATA: ResumeData = {
       institution: "St. Xavier Higher Secondary School",
       location: "Gonda UP"
     }
+  ],
+  projects: [
+    {
+      title: "Webley & Scott India",
+      description: "A high-performance custom Shopify Plus theme for a renowned firearms brand. Implemented complex product filtering, verify-with-OTP functionality for restricted items, and a custom dealer locator.",
+      technologies: ["Liquid", "JavaScript", "Tailwind CSS", "Google Maps API"],
+      type: "Theme",
+      link: "https://webleyscott.in"
+    },
+    {
+      title: "Volume Discounts Pro",
+      description: "A public Shopify App built with Remix and Shopify Functions to provide tiered pricing and quantity breaks. Features a dynamic discount engine and a merchant-friendly dashboard.",
+      technologies: ["Remix.js", "React", "GraphQL", "Prisma", "Shopify Functions"],
+      type: "App",
+      github: "https://github.com/arifkhan"
+    },
+    {
+      title: "Hydrogen Headless Store",
+      description: "Experimental headless storefront built with Shopify Hydrogen. Achieved perfect Lighthouse scores with optimistic UI updates and edge caching strategies.",
+      technologies: ["Hydrogen", "React", "Tailwind", "Oxygen"],
+      type: "Storefront",
+      github: "https://github.com/arifkhan"
+    },
+    {
+      title: "Custom Bundle Builder",
+      description: "Interactive React-based bundle builder integrated into a Liquid theme. Allows customers to visually build gift boxes with real-time inventory checks.",
+      technologies: ["React", "Liquid", "Storefront API", "Redux"],
+      type: "Theme"
+    }
   ]
 };
 
 export const NAVIGATION_LINKS = [
-  { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
   { name: "Skills", href: "#skills" },
+  { name: "Projects", href: "#projects" },
+  { name: "Experience", href: "#experience" },
   { name: "Contact", href: "#contact" }
 ];

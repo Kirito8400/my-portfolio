@@ -26,6 +26,15 @@ export interface Education {
   details?: string;
 }
 
+export interface Project {
+  title: string;
+  description: string;
+  technologies: string[];
+  link?: string;
+  github?: string;
+  type: "Theme" | "App" | "Storefront";
+}
+
 export interface ResumeData {
   name: string;
   title: string;
@@ -34,4 +43,5 @@ export interface ResumeData {
   skills: SkillCategory[];
   experience: Job[];
   education: Education[];
+  projects: Project[];
 }

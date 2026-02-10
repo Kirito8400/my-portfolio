@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Linkedin, ArrowUpRight } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-b from-dark-900 to-black border-t border-white/5">
+    <section id="contact" className="py-20 bg-gradient-to-b from-dark-900 to-black">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
@@ -56,12 +56,6 @@ export const Contact: React.FC = () => {
                  </div>
                  <ArrowUpRight className="w-4 h-4 text-gray-500 group-hover:text-white group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                </a>
-            </div>
-
-            <div className="mt-8 pt-8 border-t border-white/10 text-center">
-              <p className="text-sm text-gray-500">
-                &copy; {new Date().getFullYear()} Arif Khan. Built with React & Tailwind.
-              </p>
             </div>
           </div>
         </div>
